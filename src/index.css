@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔥 Your custom reusable styles */
+.input {
+  @apply w-full p-3 border border-gray-300 mb-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400 transition;
+}
+
+.btn-blue {
+  @apply w-full bg-blue-500 text-white p-3 rounded-xl font-semibold hover:bg-blue-600 active:scale-95 transition duration-200 shadow-md;
+}
+
+.btn-green {
+  @apply w-full bg-green-500 text-white p-3 rounded-xl font-semibold hover:bg-green-600 active:scale-95 transition duration-200 shadow-md;
+}
